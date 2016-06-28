@@ -17,5 +17,5 @@ echo "Your Database osticket Successfully Completed"
 
 echo "backing up osticket data"
 tar -cvf "osticket-data_$(date +%m-%d-%Y).tar.gz" /var/www/osticket
-echo "Your  osticket data and database  backup Successfully Completed"
+echo "Your osticket data and database backup Successfully Completed"
 

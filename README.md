@@ -12,6 +12,7 @@ osTicket_local_backup.sh exposes both the MySQL database name & password in plai
 ## Required pacakges (both servers)
 - rsync
 - openssh
+- bzip2
 
 ## Installation 
 

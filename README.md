@@ -2,9 +2,9 @@
 
 OSbackup is a backup solution for osTicket. This folder contains two scripts
 
-- osTicket_local_backup.sh: this script will create a local backup of the Ostickets install directory and MySQl database. This script is intended to run via a daily cronjob.
+- osTicket_local_backup.sh: this script will create a local backup of the Ostickets install directory and MySQL database. This script is intended to run via a daily cronjob.
 
-- osTicket_remote_backup_pull.sh: is indended to run via a daily cronjob on a remote backup server (not running osTicket) It simply uses rsync & ssh to remotley copy the backups created by osTicket_local_backup.sh from the Osticekt server. This script & below documentation assumes that access to the osTicket server can be esstalished from the remote server using ssh keys. 
+- osTicket_remote_backup_pull.sh: is indended to run via a daily cronjob on a remote backup server (not running osTicket) It simply uses rsync & ssh to remotley copy the backups created by osTicket_local_backup.sh from the osTicket server. This script & below documentation assumes that access to the osTicket server can be esstalished from the remote server using ssh keys. 
 
 ## Warning
 osTicket_local_backup.sh exposes both the MySQL database name & password in plain text. YOU MUST keep this script saved outside of the osTicket web directory for security reasons. Example /root/script.

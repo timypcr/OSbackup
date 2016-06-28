@@ -20,7 +20,7 @@ osTicket_local_backup.sh exposes both the MySQL database name & password in plai
 create a directory for osTicket_local_backup.sh
 
 ```
-# mkdir/root/script
+# mkdir /root/script
 cd /root/script
 ```
 create a directory to store the backups

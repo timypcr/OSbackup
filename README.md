@@ -34,10 +34,10 @@ Edit  osTicket_local_backup.sh to match your environment:
 # nano osTicket_local_backup.sh
 ```
 
--change enterMYSQLrootPW to the MySQL database password
--change osticketDBname to the name of your osTicket database.
--change /var/www/osTicket to the path of your osTicket install folder
--Save and exit
+- change enterMYSQLrootPW to the MySQL database password
+- change osticketDBname to the name of your osTicket database.
+- change /var/www/osTicket to the path of your osTicket install folder
+- Save and exit
 
 Make the script excutable
 

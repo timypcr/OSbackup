@@ -21,11 +21,11 @@ create a directory for osTicket_local_backup.sh
 
 ```
 # mkdir /root/script
-cd /root/script
+# cd /root/script
 ```
 create a directory to store the backups
 ```
-# mkdir/root/backups
+# mkdir /root/backups
 ```
 
 copy  osTicket_local_backup.sh to the newly created script folder.

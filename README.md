@@ -54,7 +54,7 @@ crontab -e
 In this example we will run the script everyday at midight. 
 
 ```
-00 00 * * * /root/script/./osTicket_local_backup.sh  #backup osTicket
+00 00 * * * sh /root/script/osTicket_local_backup.sh  #backup osTicket
 
 ```
 Save and exit crontab
@@ -95,7 +95,7 @@ In this example we will run the script everyday at 2am
 
 
 ```
-* 2 * * * /root/script/./osTicket_remote_backup_pull.sh  #sync osTicket backups
+* 2 * * * sh /root/script/osTicket_remote_backup_pull.sh  #sync osTicket backups
 
 ```
 
